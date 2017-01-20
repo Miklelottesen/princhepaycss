@@ -7,9 +7,7 @@
     color: #ffffff!important;
     border:none!important;
     box-shadow: none!important;
-}
-body {
-    overflow: hidden!important;
+    overflow:visible;
 }
 
 input {
