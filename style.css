@@ -17,7 +17,7 @@
 }
 
 input {
-    border: 0.4vh solid #ffffff!important;
+    border: 0.5vh solid #ffffff!important;
     opacity: 1!important;
     background:transparent!important;
     width: 100%!important;
@@ -113,4 +113,10 @@ ul:last-of-type .ui-li-static, ul:last-of-type .ui-li-static * {
 
 input[type="submit"] {
     color: #000000!important;
+}
+
+
+.ui-input-text input {
+    background: #ffffff!important;
+    color: #0e9dd8!important;
 }
