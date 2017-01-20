@@ -9,9 +9,13 @@
 }
 
 input {
-    border: 2px solid #ffffff!important;
+    border: 0.7vh solid #ffffff!important;
     opacity: 1!important;
     background:transparent!important;
+    width: 100%!important;
+}
+.ui-input-text {
+    min-width:10vw
 }
 
 
@@ -37,7 +41,8 @@ h1>img {
 /* Font sizes - relative to body */
 
 * {
-    font-size: 30px!important;
+    font-size: 35px!important;
+    font-weight:700!important;
 }
 
 .ui-btn {
@@ -52,4 +57,43 @@ h1>img {
 /* "TEST ONLY" message */
 .ui-bar-e {
     display:none!important;
+}
+
+.expdivider {
+    width: 34px;
+    height: 100%;
+    font-size: 60px!important;
+    line-height: 1.1;
+}
+
+
+
+.content-primary .ui-listview>li {
+    width: 100%!important;
+    margin:0!important;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+
+.ui-block-cvc {
+    line-height: 1.2;
+    margin-left: 20px;
+}
+
+.ui-li-divider {
+    display: none!important;
+}
+
+fieldset .ui-block-a {
+    width: 30%!important;
+}
+
+span img {
+    width:10%;
+}
+
+ul:last-of-type .ui-li-static, ul:last-of-type .ui-li-static * {
+    font-size: 20px!important;
+    width: 50%!important;
 }
