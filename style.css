@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 * {
-	background-color: #FF00FF!important;
+    background: #0e9dd8!important;
+    font-family: 'Open Sans', sans-serif!important;
+    text-shadow:0px 0px 0px transparent!important;
+    color: #ffffff!important;
+}
+
+
+body>div {
+    width: 100%!important;
+    margin: 0!important;
+    min-width: 100%!important;
+}
+
+body {
+    margin: 0!important;
+    width: 100%!important;
 }
