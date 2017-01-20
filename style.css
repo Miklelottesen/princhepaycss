@@ -8,6 +8,9 @@
     border:none!important;
     box-shadow: none!important;
 }
+body {
+    overflow: hidden!important;
+}
 
 input {
     border: 0.4vh solid #ffffff!important;
@@ -104,3 +107,6 @@ ul:last-of-type .ui-li-static, ul:last-of-type .ui-li-static * {
     width: 50%!important;
 }
 
+input[type="submit"] {
+    color: #000000!important;
+}
