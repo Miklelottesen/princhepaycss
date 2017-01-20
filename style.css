@@ -37,9 +37,19 @@ h1>img {
 /* Font sizes - relative to body */
 
 * {
-    font-size: 20px!important;
+    font-size: 30px!important;
 }
 
 .ui-btn {
-    margin-top:10%;
+    margin-top:0%;
+}
+
+/* Footer */
+.ui-footer * {
+    font-size: 15px!important;
+}
+
+/* "TEST ONLY" message */
+.ui-bar-e {
+    display:none!important;
 }
