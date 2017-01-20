@@ -6,10 +6,11 @@
     text-shadow:0px 0px 0px transparent!important;
     color: #ffffff!important;
     border:none!important;
+    box-shadow: none!important;
 }
 
 input {
-    border: 0.3vh solid #ffffff!important;
+    border: 0.4vh solid #ffffff!important;
     opacity: 1!important;
     background:transparent!important;
     width: 100%!important;
@@ -66,6 +67,11 @@ h1>img {
     line-height: 1.1;
 }
 
+li[data-role="fieldcontain"] input {
+    width:93.5%!important;
+    /* width:10%!important; */
+    /* margin-right: 90px!important; */
+}
 
 
 .content-primary .ui-listview>li {
@@ -97,3 +103,4 @@ ul:last-of-type .ui-li-static, ul:last-of-type .ui-li-static * {
     font-size: 20px!important;
     width: 50%!important;
 }
+
