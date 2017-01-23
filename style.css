@@ -105,7 +105,7 @@ span img {
 
 ul:last-of-type .ui-li-static, ul:last-of-type .ui-li-static * {
     font-size: 24px!important;
-    width: 50%!important;
+    /* width: 50%!important; */
     margin: 0!important;
     padding-bottom: 2px;
     margin-left: 1%!important;
@@ -115,8 +115,24 @@ ul:last-of-type .ui-li-static p {
     line-height: 0.8
 }
 
-input[type="submit"] {
-    color: #000000!important;
+ul:last-of-type .ui-li-static {
+    display:none;
+}
+
+ul:last-of-type li:first-of-type + li {
+    display: block!important;
+}
+
+.ui-btn {
+    position: absolute!important;
+    bottom: 10%!important;
+    left:0;
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding: 0;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 
@@ -125,3 +141,18 @@ input[type="submit"] {
     color: #0e9dd8!important;
 }
 
+
+
+ul[data-role="listview"]:last-of-type, ul[data-role="listview"]:last-of-type + h1 {
+    width: 40%;
+    display:block;
+    margin: 0;
+    text-align:left;
+    font-size: 30px;
+}
+
+ul[data-role="listview"]:last-of-type + h1 {
+    width: 100%;
+    text-align:center;
+    margin-top: 3%;
+}
