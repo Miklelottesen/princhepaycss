@@ -89,6 +89,11 @@ li[data-role="fieldcontain"] input {
 .ui-block-cvc {
     line-height: 1.2;
     margin-left: 20px;
+    width: 12%!important;
+}
+
+.ui-block-cvc>div {
+    width: 100%!important;
 }
 
 .ui-li-divider {
@@ -155,4 +160,11 @@ ul[data-role="listview"]:last-of-type + h1 {
     width: 100%;
     text-align:center;
     margin-top: 3%;
+}
+
+input {
+    text-align: center!important;
+}
+li[data-role="fieldcontain"] input {
+    text-align:left!important;
 }
