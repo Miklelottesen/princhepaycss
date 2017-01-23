@@ -126,6 +126,7 @@ ul:last-of-type .ui-li-static {
 
 ul:last-of-type li:first-of-type + li {
     display: block!important;
+    padding-left: 0;
 }
 
 .ui-btn {
