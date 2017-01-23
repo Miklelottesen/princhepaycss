@@ -182,6 +182,10 @@ ul:last-of-type li:first-of-type + li + li *, ul:last-of-type li:first-of-type +
     width: auto!important;
 }
 
+ul:last-of-type li:first-of-type + li + li + li, ul:last-of-type li:first-of-type + li + li + li {
+    display:none!important;
+}
+
 .ui-btn {
     position: absolute!important;
     bottom: 10%!important;
