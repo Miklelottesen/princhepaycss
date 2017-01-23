@@ -42,9 +42,6 @@ body {
     display: none!important;
 }
 
-h1>img {
-    display:none!important;
-}
 
 /* Font sizes - relative to body */
 
@@ -107,8 +104,15 @@ span img {
 }
 
 ul:last-of-type .ui-li-static, ul:last-of-type .ui-li-static * {
-    font-size: 20px!important;
+    font-size: 24px!important;
     width: 50%!important;
+    margin: 0!important;
+    padding-bottom: 2px;
+    margin-left: 1%!important;
+}
+ul:last-of-type .ui-li-static p {
+    text-align:left!important;
+    line-height: 0.8
 }
 
 input[type="submit"] {
@@ -120,3 +124,4 @@ input[type="submit"] {
     background: #ffffff!important;
     color: #0e9dd8!important;
 }
+
