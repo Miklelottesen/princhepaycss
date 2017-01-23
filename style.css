@@ -1,18 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans'); /* This is the same font we use in the app */
 
 * {
-    background: transparent!important;
+    background: transparent!important;              /* Make everything have transparent bg - we'll set the blue bg color in body */
     font-family: 'Open Sans', sans-serif!important;
     text-shadow:0px 0px 0px transparent!important;
     color: #ffffff!important;
     border:none!important;
     box-shadow: none!important;
-    overflow:visible;
-    -webkit-touch-callout: none!important; /* iOS Safari */
-    -webkit-user-select: none!important; /* Safari*/
-     -khtml-user-select: none!important; /* Konqueror */
-       -moz-user-select: none!important; /* Firefox */
-        -ms-user-select: none!important; /* Internet Explorer/Edge */
+    overflow:visible;                               /* Set to visible in an attempt to disable scrolling (a scroll hijacker had to be made in the activity as well) */
+    -webkit-touch-callout: none!important; /* Disable text selection for everything! Note: text selection on input fields is always possible... */
+    -webkit-user-select: none!important; 
+     -khtml-user-select: none!important; 
+       -moz-user-select: none!important; 
+        -ms-user-select: none!important; 
             user-select: none!important;
 }
 body {
@@ -46,7 +46,7 @@ body {
 }
 
 
-/* Font sizes - relative to body */
+/* Font sizes */
 
 * {
     font-size: 35px!important;
