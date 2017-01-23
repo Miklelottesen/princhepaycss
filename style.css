@@ -131,16 +131,17 @@ ul:last-of-type .ui-li-static p {
     text-align:left!important;
     /* line-height: 0.1; */
     /* display: initial; */
-    /* position: relative; */
+    position: relative;
     width: 100%;
     /* float: left; */
     /* clear: both; */
     /* float: none; */
     display: inline-block!important;
     top: 0;
-    left: 60%;
+    /* left: 60%; */
     right: 0;
     bottom: 0;
+    font-weight: 300!important;
 }
 
 ul:last-of-type .ui-li-static {
